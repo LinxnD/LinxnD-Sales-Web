@@ -18,5 +18,14 @@ namespace SalesWebMvc.Data
         public DbSet<Seller> seller { get; set; }
         public DbSet<SalesRecord> SalesRecords { get; set; }
 
+        internal List<Departament> OrderBy(Func<object, object> value)
+        {
+            throw new NotImplementedException();
+        }
+
+        internal List<Departament> ToList()
+        {
+            throw new NotImplementedException();
+        }
     }
 }
